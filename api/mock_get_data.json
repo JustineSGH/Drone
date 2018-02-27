@@ -1,0 +1,37 @@
+{
+    "data": {
+        "trame" : [{
+            "id": "",
+            "date": "",
+            "valeur": ""
+        }  
+        ],
+        "capteur": [{
+            "id": "",
+            "date": "",
+            "nom" : "",
+            "valeur": ""
+        }], 
+        "buffer": [{
+            "nbr_trame": "",
+            "date": {
+                "debut": "",
+                "fin": ""
+            }
+        }],
+        "dates": [{
+            "date_trame": ""
+        }]
+    }, 
+    "info": {
+        "capteur": [{
+            "name": ""
+        }], 
+        "buffer": [{
+            "taille_buffer": ""
+        }],
+        "system": [{
+            "etat": ""
+        }]
+    }
+}
