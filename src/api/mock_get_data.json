@@ -1,0 +1,315 @@
+{
+    "data": {
+        "trame" : [{
+            "id": "",
+            "date": "",
+            "valeur": ""
+        }  
+        ],
+        "capteur": [
+            {
+                "id": "Lundi",
+                "Conductivité" : {
+                    "id": "1",
+                    "date": "20-03-2018",
+                    "valeur": "100.56"
+                },
+                "O2":
+                {
+                    "id": "2",
+                    "date": "20-03-2018",
+                    "valeur": "6.23"
+                },
+                "pH": {
+                    "id": "3",
+                    "date": "20-03-2018",
+                    "valeur": "7.10"
+                },
+                "temperature": {
+                    "id": "4",
+                    "date": "20-03-2018",
+                    "valeur": "18.1"
+                },
+                "turbidite": {
+                    "id": "5",
+                    "date": "20-03-2018",
+                    "valeur": "5"
+                }
+            },
+            {
+                "id": "Mardi",
+                "Conductivité" : {
+                    "id": "1",
+                    "date": "21-03-2018",
+                    "valeur": "110,03"
+                },
+                "O2":
+                {
+                    "id": "2",
+                    "date": "21-03-2018",
+                    "valeur": "7.04"
+                },
+                "pH": {
+                    "id": "3",
+                    "date": "21-03-2018",
+                    "valeur": "8.10"
+                },
+                "temperature": {
+                    "id": "4",
+                    "date": "21-03-2018",
+                    "valeur": "20.61"
+                },
+                "turbidite": {
+                    "id": "5",
+                    "date": "21-03-2018",
+                    "valeur": "4"
+                }
+            },
+            {
+                "id": "Mercredi",
+                "Conductivité" : {
+                    "id": "1",
+                    "date": "23-03-2018",
+                    "valeur": "99.78"
+                },
+                "O2":
+                {
+                    "id": "2",
+                    "date": "23-03-2018",
+                    "valeur": "5.45"
+                },
+                "pH": {
+                    "id": "3",
+                    "date": "23-03-2018",
+                    "valeur": "7.56"
+                },
+                "temperature": {
+                    "id": "4",
+                    "date": "23-03-2018",
+                    "valeur": "17.05"
+                },
+                "turbidite": {
+                    "id": "5",
+                    "date": "23-03-2018",
+                    "valeur": "6"
+                }
+            },
+            {
+                "id": "Jeudi",
+                "Conductivité" : {
+                    "id": "1",
+                    "date": "24-03-2018",
+                    "valeur": "78.89"
+                },
+                "O2":
+                {
+                    "id": "2",
+                    "date": "24-03-2018",
+                    "valeur": "4.89"
+                },
+                "pH": {
+                    "id": "3",
+                    "date": "24-03-2018",
+                    "valeur": "6.33"
+                },
+                "temperature": {
+                    "id": "4",
+                    "date": "24-03-2018",
+                    "valeur": "15.6"
+                },
+                "turbidite": {
+                    "id": "5",
+                    "date": "24-03-2018",
+                    "valeur": "3"
+                }
+            },
+            {
+                "id": "Vendredi",
+                "Conductivité" : {
+                    "id": "1",
+                    "date": "25-03-2018",
+                    "valeur": "105.56"
+                },
+                "O2":
+                {
+                    "id": "2",
+                    "date": "25-03-2018",
+                    "valeur": "6.05"
+                },
+                "pH": {
+                    "id": "3",
+                    "date": "25-03-2018",
+                    "valeur": "7.05"
+                },
+                "temperature": {
+                    "id": "4",
+                    "date": "25-03-2018",
+                    "valeur": "21.3"
+                },
+                "turbidite": {
+                    "id": "5",
+                    "date": "25-03-2018",
+                    "valeur": "8"
+                }
+            },
+            {
+                "id": "Samedi",
+                "Conductivité" : {
+                    "id": "1",
+                    "date": "26-03-2018",
+                    "valeur": "223.23"
+                },
+                "O2":
+                {
+                    "id": "2",
+                    "date": "26-03-2018",
+                    "valeur": "5.06"
+                },
+                "pH": {
+                    "id": "3",
+                    "date": "26-03-2018",
+                    "valeur": "10.56"
+                },
+                "temperature": {
+                    "id": "4",
+                    "date": "26-03-2018",
+                    "valeur": "19.1"
+                },
+                "turbidite": {
+                    "id": "5",
+                    "date": "26-03-2018",
+                    "valeur": "25"
+                }
+            },
+            {
+                "id": "Dimanche",
+                "Conductivité" : {
+                    "id": "1",
+                    "date": "27-03-2018",
+                    "valeur": "100.56"
+                },
+                "O2":
+                {
+                    "id": "2",
+                    "date": "27-03-2018",
+                    "valeur": "6.23"
+                },
+                "pH": {
+                    "id": "3",
+                    "date": "27-03-2018",
+                    "valeur": "7.10"
+                },
+                "temperature": {
+                    "id": "4",
+                    "date": "27-03-2018",
+                    "valeur": "18.1"
+                },
+                "turbidite": {
+                    "id": "5",
+                    "date": "27-03-2018",
+                    "valeur": "5"
+                }
+            }
+        ],
+        "GPS": [
+            {
+                "Date": "20-03-2018",
+                "id": "Lundi",
+                "Latitude": {
+                    "valeur": "49°50'31.528"
+                },
+                "Longitude":{
+                    "valeur": "3°17'56.956"
+                },
+                "Temps": "18:56:01"
+            },
+            {
+                "Date": "21-03-2018",
+                "id": "Mardi",
+                "Latitude": {
+                    "valeur": "49°50'32.918"
+                },
+                "Longitude":{
+                    "valeur": "3°17'59.061"
+                },
+                "Temps": "15:23:01"
+            },
+            {
+                "Date": "22-03-2018",
+                "id": "Mercredi",
+                "Latitude": {
+                    "valeur": "49°50'35.528"
+                },
+                "Longitude":{
+                    "valeur": "3°18'1.374"
+                },
+                "Temps": "09:03:01"
+            },
+            {
+                "Date": "23-03-2018",
+                "id": "Jeudi",
+                "Latitude": {
+                    "valeur": "49°50'34.701"
+                },
+                "Longitude":{
+                    "valeur": "3°18'6.685"
+                },
+                "Temps": "08:18:01"
+            },
+            {
+                "Date": "24-03-2018",
+                "id": "Vendredi",
+                "Latitude": {
+                    "valeur": "49°50'35.991"
+                },
+                "Longitude":{
+                    "valeur": "3°18'9.678"
+                },
+                "Temps": "12:00:01"
+            },
+            {
+                "Date": "25-03-2018",
+                "id": "Samedi",
+                "Latitude": {
+                    "valeur": "49°50'37.331"
+                },
+                "Longitude":{
+                    "valeur": "3°18'11.435"
+                },
+                "Temps": "15:23:01"
+            },
+            {
+                "Date": "26-03-2018",
+                "id": "Dimanche",
+                "Latitude": {
+                    "valeur": "49°50'40.086"
+                },
+                "Longitude":{
+                    "valeur": "3°18'17.267"
+                },
+                "Temps": "20:48:01"
+            }
+        ], 
+        "buffer": [{
+            "nbr_trame": "",
+            "date": {
+                "debut": "",
+                "fin": ""
+            }
+        }],
+        "dates": [{
+            "date_trame": ""
+        }]
+    }, 
+    "info": {
+        "capteur": [{
+            "name": ""
+        }], 
+        "buffer": [{
+            "taille_buffer": ""
+        }],
+        "system": [{
+            "etat": ""
+        }]
+    }
+}
