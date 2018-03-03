@@ -2,9 +2,13 @@
   overflow: auto;
   max-height: 75vh;
 }
-  
+.bg-dark{
+  background-color: rgb(34, 34, 34) !important;
+}
 #mainNav .navbar-collapse .navbar-nav .nav-item .nav-link {
   cursor: pointer;
+  color: white !important;
+  text-shadow: white;
 }
   
 #mainNav .navbar-collapse .navbar-sidenav .nav-link-collapse:after {
@@ -123,7 +127,7 @@
 }
   
 #mainNav.fixed-top.navbar-dark .sidenav-toggler {
-  background-color: #212529;
+  background-color: rgb(34, 34, 34);
 }
 
 #mainNav.fixed-top.navbar-dark .sidenav-toggler a i {
@@ -185,7 +189,7 @@
   
 @media (min-width: 992px) {
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav {
-    background: #343a40;
+    background: #2d2d2d;
   }
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav li.active a {
     color: white !important;

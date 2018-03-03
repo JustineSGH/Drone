@@ -1,9 +1,9 @@
 .card-body-icon {
   position: absolute;
   z-index: 0;
-  top: -25px;
-  right: -25px;
-  font-size: 5rem;
+  top: -5px;
+  right: -5px;
+  font-size: 2.5rem;
   -webkit-transform: rotate(15deg);
   -ms-transform: rotate(15deg);
   transform: rotate(15deg);
@@ -59,4 +59,6 @@ footer.sticky-footer {
 .card-body-map{
   padding: 0;
 }
-  
+.clock{
+  font-size: 1.5rem;
+}

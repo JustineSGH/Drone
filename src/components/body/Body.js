@@ -4,6 +4,8 @@ import './Body.css';
 import ChartPH from '../charts/ChartPH.js';
 import ChartTemperature from '../charts/ChartTemperature';
 import MapContainer from '../map/MapContainer';
+import Clock from 'react-live-clock';
+import Moment from 'react-moment';
 
 class Body extends Component {
     render(){
@@ -16,6 +18,79 @@ class Body extends Component {
                         </li>
                         <li className="breadcrumb-item active">Mon Tableau de bord</li>
                     </ol>
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="card mb-3">
+                                <div className="card-header text-white bg-secondary o-hidden h-100">
+                                    <div className="card-body-icon">
+                                        <i className="fa fa-fw fa-clock-o"></i>
+                                    </div>
+                                    <Clock format={'dddd, Mo MMMM YYYY'} timezone={'FR/Europe/Paris'}/>
+                                    <hr/>
+                                    <Clock format={'HH:mm:ss'} ticking={true} timezone={'FR/Europe/Paris'} className="clock"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div className="row">
+                        <div className="col-lg-3">
+                            <div className="card mb-3">
+                                <div className="card-header text-white bg-info o-hidden h-100">
+                                    <div className="card-body-icon">
+                                        <i className="fa fa-fw fa-clock-o"></i>
+                                    </div>
+                                    Mesures
+                                </div>
+                                <div className="card-body">
+                                    <button type="button" class="btn btn btn-outline-success">Démarrer</button>
+                                    <button type="button" class="btn btn btn-outline-danger">Arrêter</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3">
+                            <div className="card mb-3">
+                                <div className="card-header text-white bg-info o-hidden h-100">
+                                    <div className="card-body-icon">
+                                        <i className="fa fa-fw fa-globe"></i>
+                                    </div>
+                                    Mesures GPS
+                                </div>
+                                <div className="card-body">
+                                    <button type="button" class="btn btn btn-outline-success">Démarrer</button>
+                                    <button type="button" class="btn btn btn-outline-danger">Arrêter</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3">
+                            <div className="card mb-3">
+                                <div className="card-header text-white bg-info o-hidden h-100">
+                                    <div className="card-body-icon">
+                                        <i className="fa fa-fw fa-hourglass"></i>
+                                    </div>
+                                    Effectuer prélèvement voix 1
+                                </div>
+                                <div className="card-body">
+                                    <button type="button" class="btn btn btn-outline-success">Démarrer</button>
+                                    <button type="button" class="btn btn btn-outline-danger">Effacer mémoire</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3">
+                            <div className="card mb-3">
+                                <div className="card-header text-white bg-info o-hidden h-100">
+                                    <div className="card-body-icon">
+                                        <i className="fa fa-fw fa-hourglass"></i>
+                                    </div>
+                                    Effectuer prélèvement voix 2
+                                </div>
+                                <div className="card-body">
+                                    <button type="button" class="btn btn btn-outline-success">Démarrer</button>
+                                    <button type="button" class="btn btn btn-outline-danger">Effacer mémoire</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="card mb-3">
                         <div className="card-header">
                         <i className="fa fa-area-chart"></i> Acidité de l'eau et oxygène</div>
@@ -125,7 +200,7 @@ class Body extends Component {
                                 <div className="card-body-icon">
                                     <i className="fa fa-fw fa-list"></i>
                                 </div>
-                                <div className="mr-5">Information trames</div>
+                                <div className="mr-5">Informations trames</div>
                                 </div>
                                 <a className="card-footer text-white clearfix small z-1" href="#">
                                 <span className="float-left">Plus de détails</span>
@@ -141,7 +216,7 @@ class Body extends Component {
                                 <div className="card-body-icon">
                                     <i className="fa fa-fw fa-table"></i>
                                 </div>
-                                <div className="mr-5">Infomation buffer</div>
+                                <div className="mr-5">Infomations buffer</div>
                                 </div>
                                 <a className="card-footer text-white clearfix small z-1" href="#">
                                 <span className="float-left">Plus de détails</span>
@@ -157,7 +232,7 @@ class Body extends Component {
                                 <div className="card-body-icon">
                                     <i className="fa fa-fw fa-exclamation-circle"></i>
                                 </div>
-                                <div className="mr-5">Infomation système</div>
+                                <div className="mr-5">Infomations système</div>
                                 </div>
                                 <a className="card-footer text-white clearfix small z-1" href="#">
                                 <span className="float-left">Plus de détails</span>

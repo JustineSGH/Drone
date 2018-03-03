@@ -21,9 +21,9 @@ class NavBar extends Component{
                     </ul>
                     <ul className="navbar-nav sidenav-toggler">
                         <li className="nav-item">
-                        <a className="nav-link text-center" id="sidenavToggler">
-                            <i className="fa fa-fw fa-angle-left"></i>
-                        </a>
+                            <a className="nav-link text-center" id="sidenavToggler">
+                                <i className="fa fa-fw fa-angle-left"></i>
+                            </a>
                         </li>
                     </ul>
                     <ul className="navbar-nav ml-auto">
